@@ -1,0 +1,126 @@
+.about{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about__my{
+    height: 300px;
+    max-width: 900px;
+    margin: 10px;
+    padding: 10px;
+}
+.about__my h2{
+    color: white;
+    font-size: 30px;
+}
+.about__my-img{
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__my img{
+    object-fit: contain;
+    width: 250px;
+    height: 250px;
+}
+.about__my-img p{
+    font-size: 25px;
+    color: white;
+}
+.about__tecnology  h2{
+    font-size: 30px;
+    color: white;
+}
+.about__tecnology  h3{
+    font-size: 30px;
+    color: white;
+}
+.about__frontend{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.about__frontend-box{
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__frontend-box img{
+    object-fit: contain;
+    width: 100px;
+    height:100px;
+}
+.about__backend{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.about__backend-box{
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__backend-box img{
+    object-fit: contain;
+    width: 100px;
+    height:100px;
+}
+
+.about__otros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.about__otros-box{
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__otros-box img{
+    object-fit: contain;
+    width: 100px;
+    height:100px;
+}
+
+@media(max-width:760px) {
+    .about__my{
+        height: 400px;
+        max-width: 900px;
+        margin-top: 60px;
+    }
+}
+
+/* ANIMACION NAV */
+
+.about__frontend-box:hover img {
+    animation: crecer 1s ease-out 1 normal both;
+}
+.about__backend-box:hover img {
+    animation: crecer 1s ease-out 1 normal both;
+}
+.about__otros-box:hover img {
+    animation: crecer 1s ease-out 1 normal both;
+}
+
+@keyframes crecer {
+    0% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(1, 2);
+    }
+    
+
+}
