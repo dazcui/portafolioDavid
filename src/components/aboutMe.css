@@ -6,7 +6,10 @@
     align-items: center;
 }
 .about__my{
-    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
     max-width: 900px;
     margin: 10px;
     padding: 10px;
@@ -23,8 +26,8 @@
 }
 .about__my img{
     object-fit: contain;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 }
 .about__my-img p{
     font-size: 25px;
@@ -33,6 +36,7 @@
 .about__tecnology  h2{
     font-size: 30px;
     color: white;
+    margin-top: 20px;
 }
 .about__tecnology  h3{
     font-size: 30px;
@@ -99,6 +103,8 @@
         height: 400px;
         max-width: 900px;
         margin-top: 60px;
+        display: flex;
+        flex-direction: column;
     }
 }
 

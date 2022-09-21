@@ -4,19 +4,19 @@ import './aboutMe.css'
 const AboutMe = () => {
   return (
     <div className='about'>
-      <div className='about__my'>        
+      <div className='about__my'>
         <div className='about__my-img'>
-          <div>
-            <img src="./img/David_A-removebg.png" alt="" />
-          </div>
-          <div>
-            <h2>Sobre mi</h2>
-            <p>Mi motivacion es poder desarrollar aplicaciones
-              para muchos usos y satisfacer al cliente. Cuento
-              con experiencia en front-end y back-end. Soy un
-              apacionado de la programacion por lo que tome la
-              desicion de ser un Full-stack.</p>
-          </div>
+
+          <img src="./img/David_A-removebg.png" alt="" />
+        </div>
+        <div>
+          <h2>Sobre mi</h2>
+          <p>Mi motivacion es poder desarrollar aplicaciones
+            para muchos usos y satisfacer al cliente. Cuento
+            con experiencia en front-end y back-end. Soy un
+            apacionado de la programacion por lo que tome la
+            desicion de ser un Full-stack.</p>
+
         </div>
       </div>
       <div className='about__tecnology'>

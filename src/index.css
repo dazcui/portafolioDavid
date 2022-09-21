@@ -15,7 +15,7 @@
 body{
     background-image: radial-gradient(circle at 100% 40%, #1396B0 0, #19a4a4 80%);
     /* background: linear-gradient(90deg, #FF4545 30%, #ffbe41 80%); */
-    min-height: 150vh;
+    min-height: 170vh;
     padding-bottom: 1em;
     position: relative;
 }
